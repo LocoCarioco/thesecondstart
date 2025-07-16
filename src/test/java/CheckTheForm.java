@@ -35,8 +35,10 @@ public class CheckTheForm {
         //$("uploadbutton").click(); - практически всегда нужна эта команда при загрузке файла
         $("#currentAddress").setValue("Javalindia 1");
         $("#state").click();
-        $("div").shouldHave(text("Haryana"));
-        $(".css-1uccc91-singleValue").click();
+        $("#react-select-3-option-2").click();
+        $("#submit").click();
+        //$(".modal-title h4").shouldHave(text("Thanks for submitting the form"));
+        $("#closeLargeModal").click();
 
 
 
